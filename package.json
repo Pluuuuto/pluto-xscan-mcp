@@ -1,0 +1,22 @@
+{
+  "name": "pluto-xscan-mcp",
+  "version": "1.0.1",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "keywords": ["xscan", "xss", "mcp", "scanner", "security"],
+  "author": "Pluto",
+  "license": "MIT",
+  "description": "基于 MCP 协议封装的 XSS 跨站脚本漏洞检测工具",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "@types/node": "^22.14.0"
+  }
+}
