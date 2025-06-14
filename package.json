@@ -1,8 +1,11 @@
 {
   "name": "pluto-xscan-mcp",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "build/index.js",
   "type": "module",
+  "bin": {
+  "pluto-xscan-mcp": "build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js"
